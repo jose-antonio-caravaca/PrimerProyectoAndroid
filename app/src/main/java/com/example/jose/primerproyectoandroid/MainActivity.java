@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String mensaje="Bienvenido";
+                String mensaje="Primera prueba del proyecto ANdroid Studio";
                 Toast.makeText(MainActivity.this,mensaje,Toast.LENGTH_LONG).show();
             }
         });
